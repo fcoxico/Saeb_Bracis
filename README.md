@@ -1,32 +1,25 @@
-# 📘 Análise dos Microdados SAEB 2021
+# 📘 Analysis of SAEB 2021 Microdata
 
-Este repositório contém os arquivos e códigos utilizados na monografia sobre a **Análise dos Microdados do SAEB 2021**. O estudo visa explorar e interpretar os dados educacionais com técnicas estatísticas e de aprendizado de máquina.
+This repository contains the files and code used in the paper titled **Analysis of SAEB 2021 Microdata**. The study aims to explore and interpret educational data using statistical and machine learning techniques.
 
-🔗 **Os dados do SAEB podem ser acessados em:** [Resultados SAEB](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/resultados)
-## 📂 Estrutura do Repositório
+🔗 **SAEB data can be accessed at:** [SAEB Results](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/resultados)
 
-- **`Processamento e Análise dos Microdados SAEB 2021`** → Arquivo principal da monografia, contendo a análise e os resultados obtidos.
-- **`TS_ESCOLA.parquet`** → Dados processados relacionados às escolas participantes do SAEB 2021.
-- **`TS_PROFESSOR.parquet`** → Dados processados relacionados aos professores do SAEB 2021.
-- **`Monografia.pdf`** → Arquivo da monografia completa.
-- **`README.md`** → Este documento, explicando a estrutura e objetivo do repositório.
+## 📂 Repository Structure
 
-## 🧐 Sobre a Monografia
+- **`SAEB 2021 Microdata Processing and Analysis`** → Main file of the paper, containing analysis and obtained results.
+- **`TS_ESCOLA.parquet`** → Processed data related to schools participating in SAEB 2021.
+- **`TS_PROFESSOR.parquet`** → Processed data related to teachers participating in SAEB 2021.
+- **`README.md`** → This document, explaining the structure and purpose of the repository.
 
-O trabalho tem como objetivo investigar os microdados do SAEB 2021, identificando padrões e insights sobre a qualidade da educação no Brasil.
+## 🧐 About the Paper
 
-### 🔍 Principais Etapas da Análise:
+The study aims to investigate SAEB 2021 microdata, identifying patterns and insights about educational quality in Brazil.
 
-1. **Coleta e Limpeza dos Dados** → Importação dos dados brutos, remoção de inconsistências, tratamento de valores ausentes e formatação das tabelas.
-2. **Análise Exploratória** → Cálculo de estatísticas descritivas, identificação de distribuições e visualização gráfica dos principais indicadores.
-3. **Aplicando o DEA (Data Envelopment Analysis)** → Uso da análise envoltória de dados para medir eficiência das escolas e professores com base em diferentes variáveis.
-4. **Processamento Paralelo** → Implementação de execuções paralelas para acelerar o cálculo da eficiência nas unidades analisadas.
-5. **Interpretação dos Resultados** → Extração dos insights obtidos, identificação de padrões e discussão sobre as políticas educacionais baseadas nos achados.
+### 🔍 Main Steps of the Analysis:
 
-## 📌 Contribuições
+1. **Data Collection and Cleaning** → Importing raw data, removing inconsistencies, handling missing values, and formatting tables.
+2. **Exploratory Analysis** → Calculating descriptive statistics, identifying distributions, and graphical visualization of key indicators.
+3. **Applying DEA (Data Envelopment Analysis)** → Using Data Envelopment Analysis to measure the efficiency of schools and teachers based on various variables.
+4. **Parallel Processing** → Implementing parallel executions to accelerate efficiency calculations in the analyzed units.
+5. **Results Interpretation** → Extracting obtained insights, identifying patterns, and discussing educational policies based on findings.
 
-Caso queira contribuir ou relatar problemas, fique à vontade para abrir um **Pull Request** ou **Issue**.
-
----
-
-🔗 **Repositório mantido por:** [fcoxico](https://github.com/fcoxico)
